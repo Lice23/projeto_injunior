@@ -1,11 +1,15 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
 h1{
 	font-family: "Heutica Neue", Times, serif;
 }
 .icone{
-	background:url("/assets/IC-bg-logo.png"); 
+	background:url("/assets/padrao2.jpeg"); 
 }
 .btn-busca{
 	border-color: white;
@@ -64,9 +68,17 @@ body{
 }
 #footer{
 	margin-top:10%;
-	color:black;
+	background:url("/assets/padrao2.jpeg"); 
+
+	color:white;
 	text-align: center;
-	font-size:10px;
+	font-size:11px;
+	width:100%;
+	margin-bottom:0%;
+	
+}
+p{
+	margin-bottom:0px;
 }
 
 
